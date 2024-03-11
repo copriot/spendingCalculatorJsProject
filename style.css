@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    
+}
+
+body{
+    height: 100vh;
+    
+    background-color: rgba(67, 147, 68, 0.735);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.heading{
+    color: aliceblue;
+    text-shadow: 2px 2px 20px #fff;
+}
+.container{
+    background-color: aliceblue;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.main{
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
+.main > input{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-style: oblique;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.double{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+.form-spending, .form-price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+input{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    scale: 0.95;
+    transition: .5s;
+}
+.form-status{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.total{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.total span {
+    color: rgb(197, 251, 89);
+}
+
+.list {
+display: flex;
+flex-direction: column;
+margin-top: 25px;
+overflow: auto;
+}
+.spending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}
+
+.buttons img{
+    width: 50px;
+    height: 50px;
+}
+.buttons img:nth-child(2){
+    width: 40px;
+    height: 40px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
