@@ -21,6 +21,7 @@ body{
     gap: 50px;
 }
 
+
 .heading{
     color: aliceblue;
     text-shadow: 2px 2px 20px #fff;
@@ -100,12 +101,13 @@ input{
     color: rgb(197, 251, 89);
 }
 
-.list {
+.list{
 display: flex;
 flex-direction: column;
 margin-top: 25px;
 overflow: auto;
 }
+
 .spending{
     display: flex;
     justify-content: space-between;
@@ -127,4 +129,18 @@ overflow: auto;
     display: flex;
     align-items: center;
     padding: 10px;
+}
+.spending h2:nth-child(2){
+    color: red;
+}
+.payed{
+    opacity: 0.6;
+ 
+}
+.payed h2:nth-child(1){
+    text-decoration: line-through;
+}
+.payed h2:nth-child(2){
+    color: green;
+   
 }
